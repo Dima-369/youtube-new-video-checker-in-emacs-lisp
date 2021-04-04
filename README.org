@@ -1,0 +1,11 @@
+- Set ~you-api-key~ to a valid YouTube API key from the Google Developer Console
+- Adjust ~you-seen-file-name~ to a file path where seen videos will be saved
+- Edit ~you-get-channels-to-check~ for channels you would like to check
+
+Check YouTube channels for new videos with ~M-x you~ which will open in a new buffer named ~*you*~.
+
+Right now there is a check coded in so `you` only checks new videos once per day, but it is trivial to remove.
+
+-----
+
+I personally do not use this anymore because I favor [[https://github.com/skeeto/elfeed][elfeed]] to check YouTube channels through RSS.
